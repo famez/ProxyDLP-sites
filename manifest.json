@@ -1,0 +1,14 @@
+{
+    "dest_folder": "ProxyDLP-Sites",
+    "sites": [
+        { "site": "ChatGPT", "urls": ["openai.com", "chatgpt.com", "oaiusercontent.com"], "classname": "ChatGPT", "download": "chatgpt.py" },
+        { "site": "Microsoft Copilot", "urls": ["substrate.office.com/m365Copilot/Chathub", "sharepoint.com/personal", "graph.microsoft.com/v1.0/me/drive/special/copilotuploads:"],
+            "classname": "Microsoft_Copilot", "download": "microsoft_copilot.py" },
+        { "site": "Github Copilot", "urls": ["githubcopilot.com", "api.github.com/user"], "classname": "Github_Copilot", "download": "github_copilot.py" }
+
+    ],
+
+    "helper_files": ["helper.py"],
+    "dependencies": "requirements.txt"
+
+}
